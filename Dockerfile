@@ -1,5 +1,4 @@
 FROM centos
-RUN yum install net-tools -y
 RUN yum install httpd -y
 COPY index.html /var/www/html/
 EXPOSE 80
